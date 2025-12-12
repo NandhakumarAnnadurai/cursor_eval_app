@@ -1,0 +1,10 @@
+^C:\USERS\NANDHAKA\CURSOR_EVAL_APP\BUILD\WINDOWS\X64\CMAKEFILES\7772E47BC9F619CD34F6D25355444772\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/nandhaka/cursor_eval_app/windows -BC:/Users/nandhaka/cursor_eval_app/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/nandhaka/cursor_eval_app/build/windows/x64/cursor_eval_app.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

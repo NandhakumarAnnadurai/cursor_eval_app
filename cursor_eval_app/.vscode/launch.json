@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter: Run (prod)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_prod.dart"
+    },
+    {
+      "name": "Flutter: Run (staging)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_staging.dart"
+    },
+    {
+      "name": "Flutter: Run (qa)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_qa.dart"
+    },
+    {
+      "name": "Flutter: Run (dev)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_dev.dart"
+    }
+  ]
+}
+

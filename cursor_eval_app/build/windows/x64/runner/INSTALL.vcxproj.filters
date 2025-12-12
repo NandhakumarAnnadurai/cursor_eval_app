@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nandhaka\cursor_eval_app\build\windows\x64\CMakeFiles\29d35ce8e53f22af0716d95f2cff88d8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8DD3CC4E-4870-3FA7-9732-EAB266FFD629}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "flutter: build apk (prod)",
+      "type": "shell",
+      "command": "flutter build apk -t lib/main_prod.dart",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "flutter: build apk (staging)",
+      "type": "shell",
+      "command": "flutter build apk -t lib/main_staging.dart",
+      "problemMatcher": []
+    },
+    {
+      "label": "flutter: build apk (qa)",
+      "type": "shell",
+      "command": "flutter build apk -t lib/main_qa.dart",
+      "problemMatcher": []
+    },
+    {
+      "label": "flutter: build apk (dev)",
+      "type": "shell",
+      "command": "flutter build apk -t lib/main_dev.dart",
+      "problemMatcher": []
+    },
+    {
+      "label": "flutter: run android (prod)",
+      "type": "shell",
+      "command": "flutter run -t lib/main_prod.dart",
+      "problemMatcher": []
+    },
+    {
+      "label": "flutter: run android (staging)",
+      "type": "shell",
+      "command": "flutter run -t lib/main_staging.dart",
+      "problemMatcher": []
+    },
+    {
+      "label": "flutter: run android (qa)",
+      "type": "shell",
+      "command": "flutter run -t lib/main_qa.dart",
+      "problemMatcher": []
+    },
+    {
+      "label": "flutter: run android (dev)",
+      "type": "shell",
+      "command": "flutter run -t lib/main_dev.dart",
+      "problemMatcher": []
+    }
+  ]
+}
+

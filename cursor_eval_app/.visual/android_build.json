@@ -1,0 +1,31 @@
+{
+  "description": "Android build triggers for all environments",
+  "commands": {
+    "build_prod": "flutter build apk -t lib/main_prod.dart",
+    "build_staging": "flutter build apk -t lib/main_staging.dart",
+    "build_qa": "flutter build apk -t lib/main_qa.dart",
+    "build_dev": "flutter build apk -t lib/main_dev.dart"
+  },
+  "run": {
+    "prod": "flutter run -t lib/main_prod.dart",
+    "staging": "flutter run -t lib/main_staging.dart",
+    "qa": "flutter run -t lib/main_qa.dart",
+    "dev": "flutter run -t lib/main_dev.dart"
+  }
+}
+{
+  "description": "Android build triggers for all environments",
+  "commands": {
+    "build_prod": "flutter build apk -t lib/main_prod.dart",
+    "build_staging": "flutter build apk -t lib/main_staging.dart",
+    "build_qa": "flutter build apk -t lib/main_qa.dart",
+    "build_dev": "flutter build apk -t lib/main_dev.dart"
+  },
+  "run": {
+    "prod": "flutter run -t lib/main_prod.dart",
+    "staging": "flutter run -t lib/main_staging.dart",
+    "qa": "flutter run -t lib/main_qa.dart",
+    "dev": "flutter run -t lib/main_dev.dart"
+  }
+}
+

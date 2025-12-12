@@ -1,0 +1,28 @@
+^C:\USERS\NANDHAKA\CURSOR_EVAL_APP\BUILD\WINDOWS\X64\CMAKEFILES\6F7C8CDE8C774305058517F8F834531D\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Flutter\flutter-3.24.3 PROJECT_DIR=C:\Users\nandhaka\cursor_eval_app FLUTTER_ROOT=C:\Flutter\flutter-3.24.3 FLUTTER_EPHEMERAL_DIR=C:\Users\nandhaka\cursor_eval_app\windows\flutter\ephemeral PROJECT_DIR=C:\Users\nandhaka\cursor_eval_app FLUTTER_TARGET=C:\Users\nandhaka\cursor_eval_app\lib\main_dev.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\nandhaka\cursor_eval_app\.dart_tool\package_config.json C:/Flutter/flutter-3.24.3/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NANDHAKA\CURSOR_EVAL_APP\BUILD\WINDOWS\X64\CMAKEFILES\D1FC954617BC640BE0AA0710817D1E1C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NANDHAKA\CURSOR_EVAL_APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/nandhaka/cursor_eval_app/windows -BC:/Users/nandhaka/cursor_eval_app/build/windows/x64 --check-stamp-file C:/Users/nandhaka/cursor_eval_app/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
